@@ -107,6 +107,7 @@ section.well.advanced {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 .tags .checklist {
+  position: relative;
   color: #333333;
   background: white;
   border-radius: 0px 0px 2px 2px;
@@ -124,7 +125,6 @@ select {
   /*-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 	-moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);*/
-
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -142,12 +142,10 @@ select {
 }
 :-moz-placeholder {
   /* Firefox 18- */
-
   color: #fff;
 }
 ::-moz-placeholder {
   /* Firefox 19+ */
-
   color: #fff;
 }
 :-ms-input-placeholder {
