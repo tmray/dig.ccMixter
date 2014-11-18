@@ -28,7 +28,7 @@
 .search-dig .form-control {
 	background-color: transparent;
 	border: none;
-	border-bottom: 1px solid #bdbdbd;
+	border-bottom: 1px solid @placeholder-color;
 	outline: none;
 	height: 2em;
 	width: 100%;
@@ -47,6 +47,9 @@
 	-o-transition: 0.3s;
 	-ms-transition: 0.3s;
 	transition: 0.3s;
+	&:focus {
+		border-bottom-color: @placeholder-color-accent;
+	}
 }
 
 a.input-group-addon.btn.btn-default {
