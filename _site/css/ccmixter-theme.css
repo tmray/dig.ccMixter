@@ -68,8 +68,14 @@
   border-bottom-color: #80d8ff;
 }
 a.input-group-addon.btn.btn-default {
-  background: transparent;
-  display: none;
+  position: relative;
+  top: -2px;
+  border-radius: 2px;
+  display: inline;
+  padding-top: 9px;
+  padding-bottom: 12px;
+  text-shadow: none;
+  background: #40c4ff;
 }
 .container {
   width: 100%;
@@ -144,10 +150,12 @@ select {
 }
 :-moz-placeholder {
   /* Firefox 18- */
+
   color: #b39ddb !important;
 }
 ::-moz-placeholder {
   /* Firefox 19+ */
+
   color: #b39ddb !important;
 }
 :-ms-input-placeholder {
@@ -236,7 +244,7 @@ input[type="radio"] {
   text-decoration: none;
 }
 .upload .btn-group.pull-left a {
-  color: #ccc;
+  color: #333333;
 }
 a.btn.play:hover {
   background: #333;
