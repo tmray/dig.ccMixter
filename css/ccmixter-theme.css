@@ -77,6 +77,13 @@ a.input-group-addon.btn.btn-default {
   text-shadow: none;
   background: #40c4ff;
 }
+a {
+  color: #40c4ff;
+}
+a:hover {
+  color: #73d4ff;
+  text-decoration: none;
+}
 .container {
   width: 100%;
   box-shadow: none;
@@ -99,6 +106,10 @@ section.well.advanced {
 }
 .well.advanced label {
   font-weight: normal;
+}
+.homepage .branding {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
 }
 .row.tags {
   margin-bottom: 20px;

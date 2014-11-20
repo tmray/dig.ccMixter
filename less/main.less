@@ -1,5 +1,12 @@
 // main.less
 
+a {
+	color: @cc-links;
+	&:hover {
+		color: lighten(@cc-links, 10%);
+		text-decoration: none;
+	}
+}
 .container {
 	width: 100%;
 	box-shadow: none;
@@ -24,4 +31,10 @@ section.well.advanced {
 
 .well.advanced label {
 	font-weight: normal;
+}
+
+// homepage branding
+.homepage .branding {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
 }
