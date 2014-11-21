@@ -18,6 +18,16 @@
   line-height: 1.4;
   text-shadow: none;
 }
+.navbar-footer {
+  background: #fff;
+  border-top-color: #ccc;
+}
+.playback-scrubber {
+  background-color: #eee;
+}
+.playback-scrubber .position {
+  background-color: #b39ddb;
+}
 .search-dig {
   background: #673ab7;
   padding: 25px;
@@ -77,6 +87,13 @@ a.input-group-addon.btn.btn-default {
   text-shadow: none;
   background: #40c4ff;
 }
+a {
+  color: #40c4ff;
+}
+a:hover {
+  color: #73d4ff;
+  text-decoration: none;
+}
 .container {
   width: 100%;
   box-shadow: none;
@@ -99,6 +116,17 @@ section.well.advanced {
 }
 .well.advanced label {
   font-weight: normal;
+}
+.homepage .branding {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+section.ccmixter-donations.container {
+  margin: auto;
+  padding: 20px;
+}
+section.ccmixter-donations.container a {
+  margin: auto;
 }
 .row.tags {
   margin-bottom: 20px;
@@ -243,12 +271,34 @@ input[type="radio"] {
 .tags-list .label a span:hover {
   text-decoration: none;
 }
+.media-list > .media {
+  background-color: #fff !important;
+  border-bottom: 1px solid #f2f2f2;
+}
+.media-list > .media a {
+  color: #333333;
+}
+li.media.upload:hover {
+  background-color: #f2f2f2 !important;
+}
+.uploads .is-playing,
+.uploads .is-playing a,
+.uploads .is-playing .media-heading {
+  color: #333333;
+  background-color: #ffffff;
+}
 .upload .btn-group.pull-left a {
   color: #333333;
 }
-a.btn.play:hover {
+.upload .btn.play:hover {
   background: #333;
 }
-a.btn.play:hover span {
+.upload .btn.play:hover span {
+  color: #fff;
+}
+.upload.is-playing .btn.play {
+  background: #333;
+}
+.upload.is-playing .btn.play span {
   color: #fff;
 }
